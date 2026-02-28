@@ -14,3 +14,11 @@ CONHECIMENTOS ADQUIRIDOS
 
 body::before
 > é uma forma de adicionar algo visual sem "sujar" o HTML com elementos não semânticos. E, como o nome diz, adiciona efeitos antes do próximo conteúdo (enquanto o ::after adicionaria depois, por exemplo).
+
+position: relative (pai)
+position: absolute (filho)
+> É basicamente um contrato entre pai e filho: o pai com relative diz "eu sou a referência", e o filho com absolute diz "vou me posicionar em relação a você".
+
+top: 50%;
+transform: translateY(-50%);
+> usar essa combinação para centralizar elementos é melhor do que tentar ajustar o top até parecer centralizado, porque é uma conta matemática que pode ser aplicada em quaisquer duplas de elementos e não sofrerá descentralização caso algum dos elementos mude de tamamhos ou outras coisas. 
