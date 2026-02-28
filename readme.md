@@ -13,4 +13,4 @@ CONHECIMENTOS ADQUIRIDOS
 > faz com que a imagem (caso seja muito grande) ocupe toda a tela com apenas um pedaço, fique descentralizada ou se repita (caso seja muito pequena para o elemento que é o html, isto é, a página como um todo).
 
 body::before
-> 
+> é uma forma de adicionar algo visual sem "sujar" o HTML com elementos não semânticos. E, como o nome diz, adiciona efeitos antes do próximo conteúdo (enquanto o ::after adicionaria depois, por exemplo).
